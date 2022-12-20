@@ -1,25 +1,29 @@
-# log = open("NASA_access_log_jul95")
-# ip_addresses =[]
-# Files = []
-# Time = []
-# FileType = []
+log = open("NASA_access_log_jul95")
+ip_addresses =[]
 
-# try:
-#     for line in log:
-#         ip_addresses.append(line.split(" ")[0])
-#         Files.append(line.split(" ")[6])
-#         Time.append(line.split(" ")[3].split(":")[0])
-# except:
-#     print("Uh-Oh")
+try:
+    for line in log:
+        ip_addresses.append(line.split(" ")[0])
+except:
+    print("Uh-Oh")
 
 
-# from collections import Counter
+from collections import Counter
+import matplotlib.pyplot as plt
 
-# c = Counter(ip_addresses).most_common(3)
-# f = Counter(Files).most_common(3)
-# t = Counter(Time).most_common(3)
+c = Counter(ip_addresses)
 
-# print(c)
-# print(f)
-# print(t)
+log_counter = Counter(ip_addresses)
+
+print(log_counter.keys())
+print(log_counter.values())
+
+f = plt.figure()
+
+plt.bar(log_counter.keys(), log_counter.values())
+
+plt.xticks(rotation=30, ha='left')
+
+plt.show()
+
 

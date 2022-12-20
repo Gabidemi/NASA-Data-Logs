@@ -5,7 +5,7 @@ import numpy as np
 y2 = np.array(['8','9','10','11','12','1','2','3','4'])
 y1 = np.array([3,5,2,6,1,3,7,3,8])
 y3 = np.array([1,5,3,5,5,8,1,3,9])
-
+#This is to make the 3 subplots
 plt.subplot(2,2,1)
 plt.plot(y2,y1, marker = 'o', linestyle = 'dashed')
 
