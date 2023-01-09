@@ -3,7 +3,7 @@
 
 ## Graph __IPAddress__ data
 
-<img src="ipaddresses1.png" alt="Commonly used IP address">
+<img src="Ipaddresses1.png" alt="Commonly used IP address">
 
 The first thing I analyzed was the commonly used IP addresses and the information i could gather were the following:
 - The most accessed IP address was 'siltb10.orl.mmc.com'
