@@ -1,5 +1,5 @@
 # Introduction
-    I analyzed the web server log from NASA to identify what IP addresses were the most common as well as the filetypes of commonly used and opened files. It shows how many individuals had accessed those specific addresses and had used those specific filetypes although i only used the top 5 - 6 results for easier viewing. See the graphs below to see what the information for the data collected.
+I analyzed the web server log from NASA to identify what IP addresses were the most common as well as the filetypes of commonly used and opened files. It shows how many individuals had accessed those specific addresses and had used those specific filetypes although i only used the top 5 - 6 results for easier viewing. See the graphs below to see what the information for the data collected.
 
 ## Graph __IPAddress__ data
 
